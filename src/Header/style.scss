@@ -1,0 +1,32 @@
+.header{
+    height: 200vh;
+    background-color: #151515;
+    color: #ececec;
+    overflow-x: hidden;
+    .titles{
+        height: 100vh;
+        padding-left: 20px; 
+
+        .title{
+        font-size: 15rem;
+        letter-spacing: 16px;
+       
+    }
+    }
+
+    .desc{
+        height: 50vh;
+        padding-top: 10rem;
+        .h3{
+            font-size: 7rem;
+            color: #ececec69;
+            padding-bottom: 3rem;
+            transform: translateX(1300px);
+        }
+        .h2-desc{
+            font-weight: 300;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
