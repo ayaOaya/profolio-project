@@ -30,8 +30,9 @@ export default function Footer() {
         <h4 className="names-h4">Email</h4>
         <input type="email" placeholder='your email' required name='user_email'/>
 
-        <h4 className="names-h4">Email</h4>
+        <h4 className="names-h4">Message</h4>
        <textarea name="message"  cols="30" rows="10" placeholder='your message'></textarea>
+       <br />
        <button type='submit' className='btn-contact' >Send</button>
       </form>
     </div>

@@ -1,7 +1,40 @@
 .footer{
     background-color: #090909;
     color: #ececec;
-    height: 100vh;
+    height: 140vh;
+    padding-left: 55px;
+
+    .contact-h1{
+        padding: 15px 0;
+        padding-bottom: 70px;
+        font-size: 5rem;
+        padding-top: 15rem;
+    }
+    input{
+        padding: 10px 55px 10px 5px;
+        border-radius: 3px;
+    }
+    .names-h4{
+        padding-top: 40px;
+        padding-bottom: 5px;
+
+    }
+    textarea{
+        padding: 5px 85px 0 5px;
+    }
+    .btn-contact{
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        background-color: #2c98bc;
+        letter-spacing: 5px;
+        margin-left: 15rem;
+        margin-top: 2rem;
+    }
+    .btn-contact:hover{
+        background-color: #5cbedf;
+        cursor: pointer;
+    }
 
   
 }
