@@ -1,32 +1,138 @@
 .header{
     height: 200vh;
-    background-color: #151515;
-    color: #ececec;
+    background-color: #DBDBDB;
+    color: #00000060;
     overflow-x: hidden;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    opacity: 0;
+
+
     .titles{
         height: 100vh;
         padding-left: 20px; 
+       
+
 
         .title{
         font-size: 15rem;
         letter-spacing: 16px;
+        clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+        opacity: 0;
+        color: #0f0f0f;
+
        
+    }
+    .title-desc{
+        opacity: 0;
     }
     }
 
     .desc{
         height: 50vh;
         padding-top: 10rem;
-        .h3{
+        
+        .h3-desc{
             font-size: 7rem;
-            color: #ececec69;
+            color: #4545451e;
             padding-bottom: 3rem;
             transform: translateX(1300px);
+            opacity: 0;
         }
         .h2-desc{
             font-weight: 300;
             display: flex;
             justify-content: center;
+            opacity: 0;
+            padding: 0 35px;
+            line-height: 54px;
         }
     }
 }
+/* @media (min-width:1200px){
+    .header .titles .title{
+        font-size: 95px;
+        padding-top: 90px;
+    }
+    .header .titles .title-desc{
+       width: 45%;
+    }
+
+    .desc{
+        padding-top: 0rem;
+        .h2-desc{
+            width: 55%;
+        }
+    }
+}
+ */
+
+
+ @media (min-width: 1201px){
+    .header{
+    
+        .titles{
+            padding-top: 10px;
+            padding-left: 20px; 
+    
+            .title{
+            font-size: 18rem;
+           
+        }
+    }    
+}
+}
+
+
+
+@media (min-width: 1579px){
+    .header{
+    
+        .titles{
+            padding-top: 70px;
+            padding-left: 20px; 
+    
+            .title{
+            font-size: 25rem;
+           
+        }
+    }    
+}
+}
+
+
+
+
+ @media (max-width: 1024px){
+    .header{
+        width: 100vw;
+
+        .titles{
+            padding-top: 90px;
+            padding-left: 20px; 
+    
+            .title{
+            font-size: 13rem;
+           
+        }
+        .title-desc{
+           width: 85%;
+        }
+        }
+
+        .desc{
+            height: 50vh;
+            padding-top: 2px;
+            
+            .h3-desc{
+                font-size: 7rem;
+                color: #4545451e;
+                padding-bottom: 3rem;
+                transform: translateX(1300px);
+                opacity: 0;
+            }
+            .h2-desc{
+                width: 95%;
+            }
+        }
+    }
+ }
