@@ -3,6 +3,7 @@ height: 980vh;
 overflow-x: hidden;
 background-color: #090909;
 color: #ececec;
+overflow-x: hidden;
    
     .h3{
         color: #ececec3b;
@@ -15,6 +16,11 @@ color: #ececec;
     .project-conatain{
         padding: 75px 0;
         padding-left: 25px;
+
+        .project-contain-p{
+            padding: 15px 0;
+            line-height: 20px;
+        }
     }
 
     .vedeo{
