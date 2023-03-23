@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 
+
 export default function About() {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -20,6 +21,7 @@ export default function About() {
     <>
     <div className="about" data-scroll-section>
          <h3 className="h3">MY PROJECTS</h3>
+       
 
         <div className="project-conatain">
             <h2 className="project-contain-h2">01_ Art objects</h2>
@@ -27,12 +29,12 @@ export default function About() {
             <div className="git-icon"></div>
             {/* here goes the website vedeo */}
             <div className="vedeo">
-            <ReactPlayer url='./public\vedeo\Archetecture landing page et 2 pages de plus - Profil 1 – Microsoft​ Edge 2023-03-20 15-35-24.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} />
+           <a href="https://github.com/ayaOaya/archetect_landingPage"> <ReactPlayer url='./public\vedeo\Archetecture landing page et 2 pages de plus - Profil 1 – Microsoft​ Edge 2023-03-20 15-35-24.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} /></a>
             </div>
         </div>
 
         <div className="project-conatain">
-            <h2 className="project-contain-h2">02_ Rent</h2>
+            <h2 className="project-contain-h2">02_ University</h2>
             <p className="project-contain-p">I have meticulously crafted a sleek and highly-functional landing page for a university website, skillfully integrating pertinent information while also elevating the overall user experience with a visually appealing design, resulting in a seamless and engaging browsing experience for users.
 
 
@@ -41,7 +43,7 @@ export default function About() {
             <div className="git-icon"></div>
             {/* here goes the website vedeo */}
             <div className="vedeo">
-            <ReactPlayer url='.\public\vedeo\Vite + React - Profil 1 – Microsoft​ Edge 2023-03-22 19-08-59.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} />
+           <a href="https://github.com/ayaOaya/university_project"> <ReactPlayer url='.\public\vedeo\Vite + React - Profil 1 – Microsoft​ Edge 2023-03-22 19-08-59.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} /></a>
             </div>
         </div>
 
@@ -51,7 +53,7 @@ export default function About() {
             <div className="git-icon"></div>
             {/* here goes the website vedeo */}
             <div className="vedeo">
-            <ReactPlayer url='.\public\vedeo\Vite + React et 1 page supplémentaire - Profil 1 – Microsoft​ Edge 2023-03-20 06-22-13.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} />
+           <a href="https://github.com/ayaOaya/rent_landingPage"> <ReactPlayer url='.\public\vedeo\Vite + React et 1 page supplémentaire - Profil 1 – Microsoft​ Edge 2023-03-20 06-22-13.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} /></a>
             </div>
         </div>
 
@@ -61,7 +63,7 @@ export default function About() {
             <div className="git-icon"></div>
             {/* here goes the website vedeo */}
             <div className="vedeo">
-            <ReactPlayer url='.\public\vedeo\Vite + React et 1 page supplémentaire - Profil 1 – Microsoft​ Edge 2023-03-20 15-33-46.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} />
+            <a href="https://github.com/ayaOaya/gallery--project"><ReactPlayer url='.\public\vedeo\Vite + React et 1 page supplémentaire - Profil 1 – Microsoft​ Edge 2023-03-20 15-33-46.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} /></a>
             </div>
         </div>
 
@@ -71,7 +73,7 @@ export default function About() {
             <div className="git-icon"></div>
             {/* here goes the website vedeo */}
             <div className="vedeo">
-            <ReactPlayer url='.\public\vedeo\Document et 3 pages de plus - Profil 1 – Microsoft​ Edge 2023-03-20 06-26-23.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} />
+            <a href="https://github.com/ayaOaya/orange"><ReactPlayer url='.\public\vedeo\Document et 3 pages de plus - Profil 1 – Microsoft​ Edge 2023-03-20 06-26-23.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} /></a>
             </div>
         </div>
 
@@ -81,7 +83,7 @@ export default function About() {
             <div className="git-icon"></div>
             {/* here goes the website vedeo */}
             <div className="vedeo">
-            <ReactPlayer url='.\public\vedeo\React App et 3 pages de plus - Profil 1 – Microsoft​ Edge 2023-03-20 23-26-00.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} />
+           <a href="https://github.com/ayaOaya/hotel_booking"> <ReactPlayer url='.\public\vedeo\React App et 3 pages de plus - Profil 1 – Microsoft​ Edge 2023-03-20 23-26-00.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} /></a>
             </div>
         </div>
 
@@ -92,7 +94,7 @@ export default function About() {
             <div className="git-icon"></div>
             {/* here goes the website vedeo */}
             <div className="vedeo">
-            <ReactPlayer url='.\public\vedeo\Space X info et 5 pages de plus - Profil 1 – Microsoft​ Edge 2023-03-20 15-28-56.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} />
+           <a href="https://github.com/ayaOaya/spacex-api"><ReactPlayer url='.\public\vedeo\Space X info et 5 pages de plus - Profil 1 – Microsoft​ Edge 2023-03-20 15-28-56.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} /></a>
             </div>
         </div>
 
@@ -102,7 +104,7 @@ export default function About() {
             <div className="git-icon"></div>
             {/* here goes the website vedeo */}
             <div className="vedeo">
-            <ReactPlayer url='.\public\vedeo\3D Folded Layout _ Demo 4 _ Codrops - Profil 1 – Microsoft​ Edge 2023-03-20 06-30-24.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} />
+            <a href="https://github.com/ayaOaya/demo04"><ReactPlayer url='.\public\vedeo\3D Folded Layout _ Demo 4 _ Codrops - Profil 1 – Microsoft​ Edge 2023-03-20 06-30-24.mp4' playing={true} autoPlay={true} controls={true} loop={true} width={990} height={660} /></a>
             </div>
         </div>
 
